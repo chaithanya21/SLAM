@@ -13,7 +13,7 @@ Below is an example of a 2D robot world with landmarks (purple x's) and the robo
 
 <h2>Project Instructions </h2>
 
-Download the project materials from the GitHub repository by using the download option or **clone** the github repository.After Dowloading or Cloning Navigate to the Home Folder of the Project.
+Download the project materials from the GitHub repository by using the download option or **clone** the github repository.After downloading or cloning navigate to the home folder of the project.
 ```
 git clone https://github.com/chaithanya21/SLAM.git
 cd SLAM
