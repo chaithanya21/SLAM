@@ -11,4 +11,13 @@ Below is an example of a 2D robot world with landmarks (purple x's) and the robo
 <img src='https://github.com/chaithanya21/SLAM/blob/master/Images/robot_world.png' width=400 class="center" >
 </p>
 
+<h2>Project Instructions </h2>
 
+Download the project materials from the GitHub repository by using the download option or **clone** the github repository.After Dowloading or Cloning Navigate to the Home Folder of the Project.
+```
+git clone https://github.com/chaithanya21/SLAM.git
+cd SLAM
+jupyter notebook
+```
+
+  
