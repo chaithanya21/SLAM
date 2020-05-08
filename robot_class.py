@@ -90,8 +90,8 @@ class robot:
             
             
             #print('l : {} , Landmarks:{}'.format(l,landmark))
-            dx = landmark[0] - self.x + self.rand()
-            dy = landmark[1] - self.y + self.rand()
+            dx = landmark[0] - self.x + self.measurement_noise * self.rand()
+            dy = landmark[1] - self.y + self.measurement_noise * self.rand()
             
             #print('dx:{} , dy:{}'.format(dx,dy))
             
@@ -100,7 +100,7 @@ class robot:
             
             
             
-            if (dx < self.measurement_range and dy<self.measurement_range):
+            if (abs(dx) < self.measurement_range and abs(dy)<self.measurement_range):
                 measurements.append([l,dx,dy])
             
             
